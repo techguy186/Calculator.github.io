@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Calculatot</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+</head>
+<body>
+
+	<h1 id="header">Calculator</h1>
+
+	<button id="three">Show Calculator</button>
+
+	<form name="calc" class="one" id="show">
+		
+		<input class="txt" type="text" name="ans" readonly=""><br>
+		<input class="two" type="button" value=" 7 " onclick="calc.ans.value += '7'">
+		<input class="two" type="button" value=" 8 " onclick="calc.ans.value += '8'">
+		<input class="two" type="button" value=" 9 " onclick="calc.ans.value += '9'">
+		<input class="two" type="button" value=" DEL " onclick="calc.ans.value = ''"><br>
+		<input class="two" type="button" value=" 4 " onclick="calc.ans.value += '4'">
+		<input class="two" type="button" value=" 5 " onclick="calc.ans.value += '5'">
+		<input class="two" type="button" value=" 6 " onclick="calc.ans.value += '6'">
+		<input class="two" type="button" value=" / " onclick="calc.ans.value += '/'"><br>
+		<input class="two" type="button" value=" 1 " onclick="calc.ans.value += '1'">
+		<input class="two" type="button" value=" 2 " onclick="calc.ans.value += '2'">
+		<input class="two" type="button" value=" 3 " onclick="calc.ans.value += '3'">
+		<input class="two" type="button" value=" * " onclick="calc.ans.value += '*'"><br>
+		<input class="two" type="button" value=" . " onclick="calc.ans.value += '.'">
+		<input class="two" type="button" value=" 0 " onclick="calc.ans.value += '0'">
+		<input class="two" type="button" value=" = " onclick="calc.ans.value = eval(calc.ans.value)">
+		<input class="two" type="button" value=" + " onclick="calc.ans.value += '+'"><br>
+
+	</form>
+	<script type="text/javascript" src="script/scrip.js"></script>
+	<script type="text/javascript" src="script/util.js"></script>
+</body>
+</html>

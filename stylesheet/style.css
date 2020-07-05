@@ -1,0 +1,31 @@
+		body
+		{
+			background-color: #bbb;
+			text-align: center;
+		} 
+		.one
+		{
+			display: none;
+		}
+		.two
+		{
+			background-color: darkgray;
+			font-size: 20px;
+			height: 100px;
+			width: 100px;
+			margin-bottom: 4px;
+		}
+		.txt
+		{
+			border-width: 3px; 
+			font-size: 30px;
+			height: 100px;
+			width: 400px;
+			margin-bottom: 4px;
+			padding-right: 5px;
+		}
+		.two:hover
+		{
+			background-color: black;
+			color: white;
+		}
